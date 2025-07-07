@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 import plotly.express as px
 
 def load_data():
-    df = pd.read_csv("dataset/refined_data.csv")
+    df = pd.read_csv("assignment_7/dataset/refined_data.csv")
     return df
 
 def train_model(df):
